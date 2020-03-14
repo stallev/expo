@@ -9,45 +9,73 @@
 </head>
 <body>
   <header class="header">
-    <div class="container container--header">
-      <div class="header__upper">
+    <div class="header__upper">
+      <div class="container container--header-upper">
         <div class="header__logo-toggle">
-            <div class="logo logo--header">
-              <picture class="logo__image logo__image--header">
-                <source media="(min-width: 768px)" srcset="img/decor/logo-tablet.png">
-                <source media="(min-width: 1360px)" srcset="img/decor/logo-desktop.png">
-                <img src="img/decor/logo.png" alt="logo">
-              </picture>
-            </div>
-            <div class="header__toggle">
-              <button class="header__toggle-button header__toggle-button--cross"></button>
-              <button class="header__toggle-button header__toggle-button--hamburger"></button>
-            </div>
-
+          <div class="logo logo--header">
+            <picture class="logo__image logo__image--header">
+              <img src="img/decor/logo.png" alt="logo">
+            </picture>
           </div>
+        </div>
         <nav class="nav nav--header">
           <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">главная</a></li>
-            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">преимущества</a></li>
-            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">портфолио</a></li>
-            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">наши услуги</a></li>
-            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">отзывы</a></li>
-            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">контакты</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">О комплексе</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">О компании</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">Новости</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">Медиа-банк</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">Контакты</a></li>
           </ul>
         </nav>
+        <div class="search">
+          <form class="search__form" action="index.html" method="post">
+            <input type="text" name="search-value" value="searching">
+          </form>
+          <ul class="search__lang-toggle">
+            <li class="search__lang-toggle-eng">
+              <a href="#" class="search__lang-toggle-eng-link">English</a>
+            </li>
+            <li class="search__lang-toggle-ru">
+              <a href="#" class="search__lang-toggle-ru-link">Русский</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="header__bottom">
+    </div>
+    <div class="header__bottom">
+      <div class="container container--header-bottom">
         <div class="page-title">
-            <h1 class="page-title__title">
-              Дизайн интерьеров
-            </h1>
-            <p class="page-title__description">
-              Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.
-            </p>
-          </div>
-          <a href="#" class="header__bottom-menu-link">
-            ЗАКАЗАТЬ ДИЗАЙН
-          </a>
+          <h1 class="page-title__title">
+            экспофорум
+          </h1>
+          <p class="page-title__description">конгрессно-выставочный центр Санкт-Петербурга</p>
+          <a href="#" class="read-more read-more--white">О комплексе</a>
+        </div>
+        <div class="helpers">
+          <article class="helpers__item helpers__item--1">
+            <h3 class="helpers__item-title">
+              Календарь мероприятий
+            </h3>
+            <a href="#" class="read-more read-more--white">Подробнее</a>
+          </article>
+          <article class="helpers__item helpers__item--2">
+            <h3 class="helpers__item-title">
+              Как добраться до Экспофорума
+            </h3>
+            <a href="#" class="read-more read-more--white">Подробнее</a>
+          </article>
+          <article class="helpers__item helpers__item--3">
+            <h3 class="helpers__item-title">
+              Онлайн-заявка на организацию мероприятия
+            </h3>
+            <a href="#" class="read-more read-more--white">Подробнее</a>
+          </article>
+          <article class="helpers__item helpers__item--4">
+            <h3 class="helpers__item-title">
+              План и инфраструктура комплекса
+            </h3>
+            <a href="#" class="read-more read-more--white">Подробнее</a>
+          </article>
         </div>
       </div>
     </div>

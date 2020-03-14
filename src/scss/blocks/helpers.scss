@@ -1,0 +1,26 @@
+.helpers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 180px;
+  width: 540px;
+  &__item{
+    width: 255px;
+    padding: 30px 40px 30px;
+    margin-bottom: 25px;
+    &--1{background: #2378FC;}
+    &--2{background: #30BCC9;}
+    &--3{background: #FFC41E;}
+    &--4{background: #F6404F;}
+  }
+  &__item-title{
+    margin-bottom: 15px;
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+  }
+}

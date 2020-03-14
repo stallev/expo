@@ -2,4 +2,13 @@
   width: 1110px;
   margin: 0 auto;
   box-sizing: border-box;
+  &--header-upper{
+    display: flex;
+    justify-content: space-between;
+    width: 1560px;
+  }
+  &--header-bottom{
+    display: flex;
+    justify-content: flex-start;
+  }
 }

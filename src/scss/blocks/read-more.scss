@@ -1,0 +1,29 @@
+.read-more{
+  position: relative;
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  &::after{
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+  }
+}
+.read-more--white::after{
+  top: 7px;
+  right: -28px;
+  width: 17px;
+  height: 8px;
+  color: white;
+  background-image: url("../img/decor/arrow-white-png.png");
+}
+.read-more--grey::after{
+  top: 7px;
+  right: -38px;
+  width: 26px;
+  height: 12px;
+  color: #2E373B;
+  background-image: url("../img/decor/arrow-grey-png.png");
+}
