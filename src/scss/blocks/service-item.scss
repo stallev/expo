@@ -4,6 +4,7 @@
   width: 220px;
   color: #FFFFFF;
   &__title{
+    margin-bottom: 25px;
     font-family: Plumb;
     font-style: normal;
     font-weight: 500;
@@ -19,7 +20,7 @@
   &__link{
     display: block;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: Circe;
     font-style: normal;
     font-weight: normal;
