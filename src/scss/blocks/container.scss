@@ -15,4 +15,8 @@
     display: flex;
     flex-direction: column;
   }
+  &--news{
+    display: flex;
+    justify-content: space-between;
+  }
 }

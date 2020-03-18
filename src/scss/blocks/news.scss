@@ -1,0 +1,17 @@
+.news{
+  padding: 100px 0;
+  background: #FAF3E3;
+  &__premium-list{
+    width: 445px;
+  }
+  &__premium-item{
+    display: block;
+    margin-bottom: 60px;
+  }
+  &__ordinary{
+    width: 530px;
+  }
+}
+.news__premium-item:last-of-type{
+  margin-bottom: 0;
+}
