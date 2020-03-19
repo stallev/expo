@@ -1,11 +1,15 @@
 .ordinary-news-item{
   display: flex;
   margin-bottom: 30px;
+  justify-content: space-between;
   &__info{
     display: flex;
     flex-direction: column;
+    width: 350px;
+    padding-top: 20px;
   }
   &__date{
+    margin-bottom: 20px;
     font-family: Circe;
     font-style: normal;
     font-weight: normal;
@@ -14,6 +18,7 @@
     color: #F6404F;
   }
   &__link{
+    flex-grow: 1;
     width: 160px;
     height: 120px;
   }
