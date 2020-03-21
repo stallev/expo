@@ -2,4 +2,4 @@
   Экспофорум
   верстка из Figma
 * link to project
-https://expo.stallevs.ru
+http://expo.stallevs.ru
