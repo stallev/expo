@@ -3,6 +3,9 @@
   &__form{
     margin-right: 15px;
   }
+  &__form-searching-input{
+    display: none;
+  }
   &__lang-toggle{
     display: flex;
     font-family: Circe;
@@ -14,4 +17,15 @@
       display: none;
     }
   }
+}
+.search__form-searching-input--visible{
+  display: block;
+}
+.search__form-searching-label{
+  display: none;
+}
+.search__form-searching-label--visible{
+  display: block;
+  width: 20px;
+  height: 19px;
 }
