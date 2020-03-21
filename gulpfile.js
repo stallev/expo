@@ -23,6 +23,7 @@ const browserSync = require('browser-sync').create();
 const svgstore = require('gulp-svgstore');
 const svgmin = require('gulp-svgmin');
 const imagemin = require('gulp-imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg');
 
 const paths =  {
   src: './src/',              // paths.src
@@ -104,6 +105,13 @@ function images() {
     .pipe(gulp.dest('build/img'));
 };
 
+function jpgmin(){
+  return gulp.src('src/img/**/*.{jpg}')
+  .pipe(imagemin([imageminMozjpeg({
+        quality: 75
+    })]))
+    .pipe(gulp.dest('build/img'))
+}
 function clean() {
   return del('build/')
 }
@@ -128,17 +136,18 @@ exports.scripts = scripts;
 exports.scriptsVendors = scriptsVendors;
 exports.htmls = htmls;
 exports.images = images;
+exports.jpgmin = jpgmin;
 exports.svgSprite = svgSprite;
 exports.clean = clean;
 exports.watch = watch;
 
 gulp.task('build', gulp.series(
   clean,
-  gulp.parallel(styles, svgSprite, scripts, scriptsVendors, htmls, copyFonts, images)
+  gulp.parallel(styles, svgSprite, scripts, scriptsVendors, htmls, copyFonts, images, jpgmin)
 ));
 
 gulp.task('default', gulp.series(
   clean,
-  gulp.parallel(styles, svgSprite, scripts, scriptsVendors, htmls, copyFonts, images),
+  gulp.parallel(styles, svgSprite, scripts, scriptsVendors, htmls, copyFonts, images, jpgmin),
   gulp.parallel(watch, serve)
 ));
