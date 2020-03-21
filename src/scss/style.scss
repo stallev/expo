@@ -1,4 +1,4 @@
-@import "bootstrap_components.scss";
+//@import "bootstrap_components.scss";
 @import "toast_grid.scss";
 @import "mixins.scss";
 @import "placeholders.scss";
@@ -9,9 +9,18 @@
 @import "blocks/container.scss";
 @import "blocks/footer.scss";
 @import "blocks/header.scss";
+@import "blocks/events.scss";
+@import "blocks/event.scss";
+@import "blocks/helpers.scss";
 @import "blocks/logo.scss";
 @import "blocks/main.scss";
 @import "blocks/menu.scss";
 @import "blocks/nav.scss";
+@import "blocks/news.scss";
+@import "blocks/ordinary-news-item.scss";
 @import "blocks/page-title.scss";
+@import "blocks/read-more.scss";
+@import "blocks/search.scss";
 @import "blocks/section-title.scss";
+@import "blocks/services.scss";
+@import "blocks/service-item.scss";

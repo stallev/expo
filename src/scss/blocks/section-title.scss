@@ -1,2 +1,20 @@
 .section-title{
+  &__title{
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+  }
+  &__common{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  &__read-all-link{
+    display: block;
+    padding-right: 55px;
+  }
+
 }

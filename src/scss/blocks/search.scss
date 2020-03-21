@@ -1,0 +1,36 @@
+.search{
+  display: flex;
+  &__form{
+    margin-right: 15px;
+  }
+  &__form-searching-input{
+    display: none;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  &__lang-toggle{
+    display: flex;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    &-ru-link{
+      display: none;
+    }
+  }
+}
+.search__form-searching-input--visible{
+  display: block;
+}
+.search__form-searching-label{
+  display: none;
+}
+.search__form-searching-label--visible{
+  display: block;
+  width: 20px;
+  height: 19px;
+}

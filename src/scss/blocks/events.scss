@@ -1,0 +1,26 @@
+.events{
+  padding: 100px 0;
+  background-color: #FFC41E;
+  &__common{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  &__title{
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+  }
+  &__all-events-link{
+    display: block;
+    padding-right: 55px;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

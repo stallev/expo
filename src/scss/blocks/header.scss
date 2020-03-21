@@ -1,2 +1,12 @@
 .header{
+  background-image: url("../img/content/header-bg.jpg");
+  color: white;
+  &__upper{
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  &__bottom{
+    padding-top: 140px;
+    padding-bottom: 55px;
+  }
 }

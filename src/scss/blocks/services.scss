@@ -1,0 +1,9 @@
+.services{
+  padding: 85px 0;
+  background: #2378FC;
+  &__list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

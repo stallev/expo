@@ -1,3 +1,22 @@
 .page-title{
-  text-align: center;
+  width: 420px;
+  text-align: left;
+  &__title{
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__description{
+    padding-bottom: 10px;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+  }
 }
